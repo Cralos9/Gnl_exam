@@ -4,15 +4,15 @@
 #include <stdlib.h>
 #include "get_next_line.h"
 
-// int ft_strlen(char *s)
-// {
-// 	int len = 0;
-// 	if(!s)
-// 		return(0);
-// 	while(s[len])
-// 		len++;
-// 	return(len);
-// }
+ int ft_strlen(char *s)
+ {
+ 	int len = 0;
+ 	if(!s)
+ 		return(0);
+ 	while(s[len])
+ 		len++;
+	return(len);
+ }
 
 char *ft_cut_line(char *temp)
 {
